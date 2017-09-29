@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
    		//Get talents HTML from user, with Ajax
    		var xhr = new XMLHttpRequest();
-		xhr.open('GET', 'http://www.ksart.nl/embed/canvas-widget.php?username='+username+'&width='+width+'&height='+height);
+		xhr.open('GET', 'https://www.ksart.nl/embed/canvas-widget.php?username='+username+'&width='+width+'&height='+height);
 		xhr.onload = function() {
 		    if (xhr.status === 200) {
 		        response = xhr.responseText;
